@@ -1,0 +1,17 @@
+{
+  "name": "cryptophoto-node",
+  "version": "0.0.1",
+  "description": "Accessing [CryptoPhoto](http://cryptophoto.com/) from Node.js",
+  "author": "Octavian Theodor Nita <mnothro@yahoo.com>",
+  "homepage": "http://cryptophoto.com/",
+  "keywords": [
+    "cryptophoto",
+    "block",
+    "phishing",
+    "neutralize",
+    "stolen",
+    "password"
+  ],
+  "private": false,
+  "main": "lib/cryptophoto-node.js"
+}
