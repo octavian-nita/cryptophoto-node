@@ -3,3 +3,5 @@
 /.buildpath
 /.settings
 /nbproject
+
+/node_modules

@@ -5,13 +5,9 @@
   "author": "Octavian Theodor Nita <mnothro@yahoo.com>",
   "homepage": "http://cryptophoto.com/",
   "keywords": [
-    "cryptophoto",
-    "block",
-    "phishing",
-    "neutralize",
-    "stolen",
-    "password"
+    "cryptophoto", "block", "phishing", "neutralize", "stolen", "password"
   ],
   "private": false,
-  "main": "lib/cryptophoto-node.js"
+  "main": "lib/cryptophoto-node.js",
+  "dependencies": {}
 }
