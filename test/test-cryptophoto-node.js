@@ -2,6 +2,16 @@
 
 var cryptophoto = require('../lib/cryptophoto-node');
 
+cryptophoto.proxy = {
+  host: '158.169.131.13',
+  port: 8012,
+  user: '*****',
+  pass: '*****',
+  headers: {
+    Cookie: 'BCIDSLB=*****'
+  }
+};
+
 cryptophoto.visibleIp(function(error, ip) {
   var cpClient;
 
@@ -15,11 +25,12 @@ cryptophoto.visibleIp(function(error, ip) {
   cpClient.getSession('octavian', ip, function(error, session) {
     if (error) { return console.error(error.toString()); }
 
+    console.log(session);
+
     console.log(cpClient.getTokenGenerationWidget(session));
 
     console.log(cpClient.getChallengeWidget(session));
 
-    cpClient.verify('selector', 'row', 'col', 'cph', 'octavian', ip, function(error, verification) {
-    });
+    // cpClient.verify('selector', 'row', 'col', 'cph', 'octavian', ip, function(error, verification) {});
   });
 });
