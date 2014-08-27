@@ -1,4 +1,4 @@
 cryptophoto-node
 ================
 
-Accessing [CryptoPhoto](http://cryptophoto.com/) from Node.js.
+Accessing the [CryptoPhoto](http://cryptophoto.com/) [API](https://cryptophoto.com/admin/api) from Node.js.

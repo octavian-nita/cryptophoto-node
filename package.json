@@ -1,13 +1,18 @@
 {
   "name": "cryptophoto-node",
-  "version": "0.0.1",
-  "description": "Accessing [CryptoPhoto](http://cryptophoto.com/) from Node.js",
-  "author": "Octavian Theodor Nita <mnothro@yahoo.com>",
+  "version": "1.0.0",
+
   "homepage": "http://cryptophoto.com/",
-  "keywords": [
-    "cryptophoto", "block", "phishing", "neutralize", "stolen", "password"
-  ],
-  "private": false,
-  "main": "lib/cryptophoto-node.js",
-  "dependencies": {}
+  "author": "Octavian Theodor Nita <mnothro@yahoo.com>",
+  "description": "Accessing the CryptoPhoto API (http://cryptophoto.com/) from Node.js",
+  "keywords": ["cryptophoto", "block", "phishing", "neutralize", "stolen", "passwords"],
+  "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octavian-nita/cryptophoto-node.git"
+  },
+  "bugs": "https://github.com/octavian-nita/cryptophoto-node/issues",
+
+  "main": "lib/cryptophoto-node.js"
 }
