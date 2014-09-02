@@ -29,8 +29,8 @@ cryptophoto.visibleIp(function(error, visibleIp) {
 
   console.log('Visible IP: ' + visibleIp + os.EOL);
 
-  cpClient = cryptophoto.createClient(process.CP_PUBLIC_KEY || 'efe925bda3bc2b5cd6fe3ad3661075a7',
-                                      process.CP_PRIVATE_KEY || '384b1bda2dafcd909f607083da22fef0');
+  cpClient = cryptophoto.createClient(process.env.CP_PUBLIC_KEY || 'efe925bda3bc2b5cd6fe3ad3661075a7',
+                                      process.env.CP_PRIVATE_KEY || '384b1bda2dafcd909f607083da22fef0');
 
   cpClient.getSession(userId, visibleIp, function(error, cpSession) {
     if (error) { return console.error(error.toString()); }
